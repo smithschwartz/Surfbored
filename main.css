@@ -73,6 +73,12 @@ p {
 
 footer p {
   font-size: 1.7em;
+  padding-bottom: 1em;
+}
+
+.hashtag {
+  font-family: 'League Gothic Condensed', Helvetica, arial, sans-serif;
+  font-weight: 200;
 }
 
 @media screen and (min-width: 500px) {
