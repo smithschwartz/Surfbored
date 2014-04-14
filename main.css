@@ -75,10 +75,11 @@ footer p {
   font-size: 1.7em;
   padding-bottom: 1em;
 }
-
-.hashtag {
-  font-family: 'League Gothic Condensed', Helvetica, arial, sans-serif;
-  font-weight: 200;
+.target {
+    width: 1px; /* '0' will not work for Opera */
+    display: inline-block;
+    padding-top: 300px;
+    margin-top: -300px;
 }
 
 @media screen and (min-width: 500px) {
@@ -95,6 +96,10 @@ footer p {
   .main {
     top: 11em;
   }
+  .target {
+      padding-top: 400px;
+      margin-top: -400px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -104,6 +109,10 @@ footer p {
   }
   header {
     height: 19em;
+  }
+  .target {
+      padding-top: 680px;
+      margin-top: -680px;
   }
   p {
     font-size: 2.2em;
@@ -140,3 +149,4 @@ footer p {
     width: 405px;
   }
 }
+
