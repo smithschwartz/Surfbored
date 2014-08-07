@@ -19,13 +19,13 @@ header {
   position: fixed;
   width: 100%;
   max-width: 100%;
-  height: 5.5em;
   margin: 0;
   padding: 0;
   background: #1C1B1C;
   text-align: center;
   top: 0;
   z-index: 20;
+  height: 6em;
 }
 
 header h1 {
@@ -87,10 +87,10 @@ footer p {
   }
 
   h1 {
-    font-size: 10em;
+    font-size: 8em;
   }
   header {
-    height: 11em;
+    height: 10em;
   }
   .main {
     top: 11em;
@@ -103,21 +103,13 @@ footer p {
 
 @media screen and (min-width: 1000px) {
 
-  h1 {
-    font-size: 18em;
-  }
-  header {
-    height: 19em;
-  }
+
   .target {
-      padding-top: 680px;
-      margin-top: -680px;
+      padding-top: 10em;
+      margin-top: -10em;
   }
   p {
     font-size: 2.2em;
-  }
-  .main {
-    top: 20em;
   }
   .bored, .surf {
     width: 500px;
