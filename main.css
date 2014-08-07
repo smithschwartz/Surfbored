@@ -34,7 +34,7 @@ header h1 {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   text-align: center;
   height: 2em;
@@ -77,8 +77,8 @@ footer p {
 .target {
     width: 1px; /* '0' will not work for Opera */
     display: inline-block;
-    padding-top: 300px;
-    margin-top: -300px;
+/*    padding-top: 300px;
+    margin-top: -300px;*/
 }
 
 @media screen and (min-width: 500px) {
@@ -95,18 +95,18 @@ footer p {
   .main {
     top: 11em;
   }
-  .target {
+/*  .target {
       padding-top: 400px;
       margin-top: -400px;
-  }
+  }*/
 }
 
 @media screen and (min-width: 1000px) {
 
 
   .target {
-      padding-top: 10em;
-      margin-top: -10em;
+/*      padding-top: 10em;
+      margin-top: -10em;*/
   }
   p {
     font-size: 2.2em;
